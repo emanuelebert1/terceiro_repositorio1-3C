@@ -26,6 +26,10 @@ padding: 4rem 0;
     font-weight: bold;
 }
 .formulario button {
-    background-color: var(--cor1);
-    border: nome;
+    background-color: var(--cor3);
+    border: none;
+    font-weight: bold;
+}
+.form-control{
+    background-color: var(--cor2)
 }
