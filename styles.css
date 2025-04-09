@@ -1,35 +1,75 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Oswald:wght@200..700&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap');
 
 :root {
-    --cor-principa: #e3e619;
-    --cor1:#484838;
-    --cor:#00c4af;
-    --cor:#008d7b;
-    --preto:#000000;
-    --branco:#FFFFFF;
+    --cor-principal: #d3d60f;
+    --cor1: #81d117;
+    --cor2: #f7ebff;
+    --cor3: #68baa6;
+    --preto: #000000;
+    --branco: #FFFFFF;
+    --laranja-claro: #FF862A;
 }
 
 body {
-    font-size:1rem;
-    font-family: 'Montserrat';
+    font-size: 1rem;
+    font-family: 'Montserrat'; /*o nome da sua fonte*/
 }
+
+section {
+    padding-bottom: 5rem;
+}
+
+.display-4 {
+    text-shadow: -5px 5px var(--laranja-claro);
+}
+
+#tropicalia {
+    position: relative;
+    padding-top: 5rem;
+    margin-top: 3rem;
+    background: var(--cor2);
+    background-size: 180px 180px; /* Ajuste o tamanho conforme necessário*/
+}
+
+#tropicalia .container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    z-index: 1; /* Garante que o conteúdo fica acima das imagens de backgronde se houverem */
+}
+
+
+
+
+
+
+
+
+
+
+
 #contato {
-background:var(--cor-principa);
-background-size: cover;
-padding: 4rem 0;
+    background: var(--cor-principal);
+    background-size: cover;
+    padding: 4rem 0;
 }
+
 .formulario{
-    background-color:var(--branco);
+    background-color: var(--branco);
     padding: 2rem;
     border-radius: 10px;
     box-shadow: 0 0 10px rgba(0,0,0,0.1);
     font-weight: bold;
 }
+
 .formulario button {
     background-color: var(--cor3);
     border: none;
     font-weight: bold;
 }
-.form-control{
-    background-color: var(--cor2)
+
+.form-control {
+    background-color: var(--cor2);
 }
