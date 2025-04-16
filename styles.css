@@ -1,9 +1,8 @@
-
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Oswald:wght@200..700&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap');
 
 :root {
-    --cor-principal: #d3d60f;
-    --cor1: #81d117;
+    --cor-principal: #262597;
+    --cor1: #6c6091;
     --cor2: #f7ebff;
     --cor3: #68baa6;
     --preto: #000000;
@@ -19,6 +18,43 @@ body {
 section {
     padding-bottom: 5rem;
 }
+
+header {
+    background-color: var(--branco);
+}
+
+.nav-link {
+    color: var(--laranja-claro);
+    font-weight: 600;
+}
+
+.inicio-fundo {
+    background-image: url(img/4965007.jpg);
+    background-size: cover;
+    background-position: right;
+    border-radius: 80px;
+    width: 100%;
+    height: 606px;
+    padding: 40px;
+    margin: 0 auto;
+}
+
+.esquerda-conteudo {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap:1rem;
+}
+
+.botao-inicio {
+    background-color: var(--laranja-claro);
+    border-radius: 30px;
+    border: none;
+    width: 14em;
+    height: 3em;
+    align-content: center;
+}
+
 
 .display-4 {
     text-shadow: -5px 5px var(--laranja-claro);
