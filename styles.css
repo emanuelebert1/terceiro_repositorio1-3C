@@ -2,7 +2,7 @@
 
 :root {
     --cor-principal: #262597;
-    --cor1: #6c6091;
+    --cor1: #ebf21d;
     --cor2: #f7ebff;
     --cor3: #68baa6;
     --preto: #000000;
@@ -20,7 +20,7 @@ section {
 }
 
 header {
-    background-color: var(--preto);
+    background-color: var(--cor1);
 }
 
 .nav-imagem {
@@ -33,7 +33,7 @@ header {
 }
 
 .inicio-fundo {
-    background-image: url(img/4965007.jpg);
+    background-image: url(imagens/download.jpg);
     background-size: cover;
     background-position: right;
     border-radius: 80px;
