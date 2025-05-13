@@ -2,7 +2,7 @@
 
 :root {
     --cor-principal: #262597;
-    --cor1: #ebf21d;
+    --cor1: #edd11a;
     --cor2: #a651df;
     --cor3: #68baa6;
     --preto: #000000;
@@ -153,7 +153,7 @@ header {
     color: var(--preto);
 }
 
-.alto-contraste #tropicalia {
+.alto-contraste #odyssey {
     background: none;
 }
 
