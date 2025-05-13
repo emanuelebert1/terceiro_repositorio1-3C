@@ -20,7 +20,7 @@ section {
 }
 
 header {
-    background-color: var(--branco);
+    background-color: var(--preto);
 }
 
 .nav-imagem {
@@ -64,11 +64,11 @@ header {
     text-shadow: -5px 5px var(--laranja-claro);
 }
 
-#tropicalia {
+#odyssey {
     position: relative;
     padding-top: 5rem;
     margin-top: 3rem;
-    background: var(--cor2);
+    background: var(--cor1);
     background-size: 180px 180px; /* Ajuste o tamanho conforme necessário*/
 }
 
